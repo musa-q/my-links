@@ -4,26 +4,26 @@ import { Github, Linkedin, Twitter, Mail, ExternalLink, BookOpenText } from 'luc
 const personalInfo = {
   name: "Musa Qureshi",
   title: "Software Developer @ Stickee",
-  bio: "...",
-  avatar: "...",
+  bio: "",
+  avatar: "",
   links: [
     {
       title: "My Arabic Learner",
       url: "https://www.myarabiclearner.com/",
       icon: BookOpenText,
-      description: "Check latest project - a platform to learn Levantine Arabic"
+      description: "Check out my latest project - a platform to learn Levantine Arabic"
     },
     {
       title: "GitHub",
       url: "https://github.com/musa-q",
       icon: Github,
-      description: "View my open-source contributions"
+      description: "View my projects on GitHub"
     },
     {
       title: "LinkedIn",
       url: "https://www.linkedin.com/in/musa-qureshi/",
       icon: Linkedin,
-      description: "Connect with me professionally"
+      description: "Connect with me on LinkedIn"
     },
     // {
     //   title: "Twitter",
