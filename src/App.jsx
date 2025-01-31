@@ -52,7 +52,7 @@ function App() {
 
   const MainView = () => (
     <>
-      <div className="text-center mb-12">
+      <div className="text-center mb-12 mt-5 pt-4">
         {personalInfo.avatar ? (
           <img
             src={personalInfo.avatar}
@@ -125,24 +125,15 @@ function App() {
             <h2 className="text-xl font-semibold mb-2">{project.title}</h2>
             <p className="text-gray-300 mb-4">{project.description}</p>
 
-            <div className="flex flex-wrap gap-2 mb-4">
+            <div className="flex flex-wrap gap-3 mb-4">
               {project.technologies.map((tech, techIndex) => (
                 <span
                   key={techIndex}
-                  className="px-3 py-1 bg-blue-500 bg-opacity-20 rounded-full text-blue-400 text-sm"
+                  className="px-3 py-2 bg-blue-500 bg-opacity-20 rounded-full text-blue-400 text-sm"
                 >
                   {tech}
                 </span>
               ))}
-            </div>
-
-            <div className="flex gap-4">
-              <button
-                onClick={() => setSelectedImage(project.screenshot)}
-                className="flex items-center px-2 py-2 rounded-full bg-blue-500 rounded hover:bg-blue-600 transition-colors"
-              >
-                <Eye className="w-5 h-5" />
-              </button>
 
               <button
                 onClick={() => window.open(project.url, '_blank')}
@@ -151,6 +142,16 @@ function App() {
                 <ExternalLink className="w-5 h-5" />
               </button>
             </div>
+
+            {/* <div className="flex gap-4"> */}
+            {/* <button
+                onClick={() => setSelectedImage(project.screenshot)}
+                className="flex items-center px-2 py-2 rounded-full bg-blue-500 rounded hover:bg-blue-600 transition-colors"
+              >
+                <Eye className="w-5 h-5" />
+              </button> */}
+
+            {/* </div> */}
           </div>
         ))}
       </div>
