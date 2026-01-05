@@ -96,7 +96,7 @@ export default function Home() {
 
           <div className="space-y-6 mt-4">
             {/* Project 1 */}
-            <div className="space-y-3 pb-6 border-b border-border/50">
+            <div className="space-y-2 pb-6 border-b border-border/50">
               <div className="flex items-start justify-between gap-4">
                 <div className="space-y-1.5 flex-1">
                   <h3 className="text-xl sm:text-2xl font-serif">Daily Language Practice</h3>
@@ -106,13 +106,31 @@ export default function Home() {
                 </div>
                 <span className="text-xs sm:text-sm text-muted-foreground whitespace-nowrap">2025</span>
               </div>
+              <div className="flex gap-2 mt-2 mb-4 items-center">
+                <a
+                  href="https://kalimle.akililabs.org/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="italic font-serif p-0 text-current hover:underline hover:bg-transparent leading-none inline"
+                >
+                  Visit Kalimle
+                </a>
+                <a
+                  href="https://sozle.akililabs.org/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="italic font-serif p-0 text-current hover:underline hover:bg-transparent leading-none inline"
+                >
+                  Visit Sozle
+                </a>
+              </div>
               <div className="flex gap-2 flex-wrap">
                 <span className="text-xs px-2.5 py-1 bg-accent/50 text-accent-foreground rounded-md">FastAPI</span>
               </div>
             </div>
 
             {/* Project 2 */}
-            <div className="space-y-3 pb-6 border-b border-border/50">
+            <div className="space-y-2 pb-6 border-b border-border/50">
               <div className="flex items-start justify-between gap-4">
                 <div className="space-y-1.5 flex-1">
                   <h3 className="text-xl sm:text-2xl font-serif">My Arabic Learner</h3>
@@ -122,6 +140,16 @@ export default function Home() {
                 </div>
                 <span className="text-xs sm:text-sm text-muted-foreground whitespace-nowrap">2024</span>
               </div>
+              <div className="flex gap-2 mt-2 mb-4 items-center">
+                <a
+                  href="https://www.myarabiclearner.com/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="italic font-serif p-0 text-current hover:underline hover:bg-transparent leading-none inline"
+                >
+                  Visit My Arabic Learner
+                </a>
+              </div>
               <div className="flex gap-2 flex-wrap">
                 <span className="text-xs px-2.5 py-1 bg-accent/50 text-accent-foreground rounded-md">Flask</span>
                 <span className="text-xs px-2.5 py-1 bg-accent/50 text-accent-foreground rounded-md">ReactJS</span>
@@ -130,7 +158,7 @@ export default function Home() {
             </div>
 
             {/* Project 3 */}
-            <div className="space-y-3 pb-6 border-b border-border/50">
+            <div className="space-y-2 pb-6 border-b border-border/50">
               <div className="flex items-start justify-between gap-4">
                 <div className="space-y-1.5 flex-1">
                   <h3 className="text-xl sm:text-2xl font-serif">Asma Ul Husna</h3>
@@ -139,6 +167,16 @@ export default function Home() {
                   </p>
                 </div>
                 <span className="text-xs sm:text-sm text-muted-foreground whitespace-nowrap">2024</span>
+              </div>
+              <div className="flex gap-2 mt-2 mb-4 items-center">
+                <a
+                  href="https://asmaulhusna.xyz/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="italic font-serif p-0 text-current hover:underline hover:bg-transparent leading-none inline"
+                >
+                  Visit Asma Ul Husna
+                </a>
               </div>
               <div className="flex gap-2 flex-wrap">
                 <span className="text-xs px-2.5 py-1 bg-accent/50 text-accent-foreground rounded-md">React Native</span>
