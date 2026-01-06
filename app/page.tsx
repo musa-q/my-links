@@ -121,7 +121,7 @@ export default function Home() {
                   rel="noopener noreferrer"
                   className="italic font-serif p-0 text-current hover:underline hover:bg-transparent leading-none inline"
                 >
-                  Visit Sozle
+                  Visit Sözle
                 </a>
               </div>
               <div className="flex gap-2 flex-wrap">
