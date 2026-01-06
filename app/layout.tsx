@@ -15,7 +15,7 @@ const _cormorantGaramond = Cormorant_Garamond({
 export const metadata: Metadata = {
   title: "Musa Qureshi",
   description:
-    "Portfolio and linktree of Musa Qureshi",
+    "Portfolio of Musa Qureshi",
   generator: "v0.app",
   icons: {
     icon: [
