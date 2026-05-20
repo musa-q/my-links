@@ -106,24 +106,16 @@ export default function Home() {
                 </div>
                 <span className="text-xs sm:text-sm text-muted-foreground whitespace-nowrap">2026</span>
               </div>
-              {/* <div className="flex gap-2 mt-2 mb-4 items-center">
+              <div className="flex gap-2 mt-2 mb-4 items-center">
                 <a
-                  href="https://kalimle.akililabs.org/"
+                  // href="https://kalimle.akililabs.org/"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="italic font-serif p-0 text-current hover:underline hover:bg-transparent leading-none inline"
+                  className="italic font-serif p-0 text-current hover:bg-transparent leading-none inline"
                 >
-                  Visit Kalimle
+                  Coming soon...
                 </a>
-                <a
-                  href="https://sozle.akililabs.org/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="italic font-serif p-0 text-current hover:underline hover:bg-transparent leading-none inline"
-                >
-                  Visit Sözle
-                </a>
-              </div> */}
+              </div>
               <div className="flex gap-2 flex-wrap">
                 <span className="text-xs px-2.5 py-1 bg-accent/50 text-accent-foreground rounded-md">FastAPI</span>
                 <span className="text-xs px-2.5 py-1 bg-accent/50 text-accent-foreground rounded-md">React Native</span>
