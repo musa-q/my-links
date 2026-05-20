@@ -95,6 +95,42 @@ export default function Home() {
           </DialogHeader>
 
           <div className="space-y-6 mt-4">
+            {/* Project 0 */}
+            <div className="space-y-2 pb-6 border-b border-border/50">
+              <div className="flex items-start justify-between gap-4">
+                <div className="space-y-1.5 flex-1">
+                  <h3 className="text-xl sm:text-2xl font-serif">Tilawah</h3>
+                  <p className="text-sm sm:text-base text-muted-foreground leading-relaxed">
+                    An AI-powered Quran companion app enabling users to explore, study and interact with content through natural voice, text prompts and complete personalisation - with a dynamic UX.
+                  </p>
+                </div>
+                <span className="text-xs sm:text-sm text-muted-foreground whitespace-nowrap">2026</span>
+              </div>
+              {/* <div className="flex gap-2 mt-2 mb-4 items-center">
+                <a
+                  href="https://kalimle.akililabs.org/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="italic font-serif p-0 text-current hover:underline hover:bg-transparent leading-none inline"
+                >
+                  Visit Kalimle
+                </a>
+                <a
+                  href="https://sozle.akililabs.org/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="italic font-serif p-0 text-current hover:underline hover:bg-transparent leading-none inline"
+                >
+                  Visit Sözle
+                </a>
+              </div> */}
+              <div className="flex gap-2 flex-wrap">
+                <span className="text-xs px-2.5 py-1 bg-accent/50 text-accent-foreground rounded-md">FastAPI</span>
+                <span className="text-xs px-2.5 py-1 bg-accent/50 text-accent-foreground rounded-md">React Native</span>
+                <span className="text-xs px-2.5 py-1 bg-accent/50 text-accent-foreground rounded-md">LLM Orchestration</span>
+              </div>
+            </div>
+
             {/* Project 1 */}
             <div className="space-y-2 pb-6 border-b border-border/50">
               <div className="flex items-start justify-between gap-4">
@@ -161,7 +197,7 @@ export default function Home() {
             <div className="space-y-2 pb-6 border-b border-border/50">
               <div className="flex items-start justify-between gap-4">
                 <div className="space-y-1.5 flex-1">
-                  <h3 className="text-xl sm:text-2xl font-serif">Asma Ul Husna</h3>
+                  <h3 className="text-xl sm:text-2xl font-serif">Asma Ul-Husna</h3>
                   <p className="text-sm sm:text-base text-muted-foreground leading-relaxed">
                     A iOS mobile app that helps users learn and memorise the 99 names of God.
                   </p>
@@ -212,16 +248,17 @@ export default function Home() {
 
           <div className="space-y-5 mt-2">
             <p className="text-base sm:text-lg leading-relaxed">
-              I’m a developer and entrepreneur focused on execution and impact, turning complex problems into
-              production-ready systems.
+              I’m a product-minded engineer focused on building AI-native products, autonomous systems and scalable developer tooling.
             </p>
 
             <p className="text-sm sm:text-base text-muted-foreground leading-relaxed">
-              At Stickee, I've spent the past two years engineering and managing 500+ automated extraction
-              agents and led the development of a Google-commissioned AI system for advanced aspect-based
-              sentiment analysis. Alongside this, I founded My Arabic Learner, designing and building an
-              end-to-end platform that delivers a free, accessible solution for Levantine Arabic through
-              interactive tools and a custom English-to-Levantine AI translator.
+              Currently at Opensignal, I engineer and maintain large-scale data acquisition infrastructure supporting global brands
+              including Google, Samsung and Apple, while building autonomous AI tooling capable of diagnosing failures, iteratively
+              modifying code and testing fixes across production systems - reducing scraper error rates by ~33% and cutting issue
+              resolution times from hours to ~15 minutes. Outside of work, I build end-to-end AI products across web, mobile and
+              machine learning, including My Arabic Learner, a Levantine Arabic learning platform focused on personalised learning
+              and custom NLP translation models, and Tilawah, an AI-powered Quran companion using voice interaction and orchestration
+              workflows to create more natural and personalised learning experiences.
             </p>
 
             <div className="pt-4 space-y-3">
@@ -232,19 +269,19 @@ export default function Home() {
                   <h4 className="text-xs sm:text-sm uppercase tracking-widest text-muted-foreground">Languages</h4>
                   <ul className="space-y-1.5 text-sm">
                     <li>Python</li>
-                    <li>TypeScript, JavaScript</li>
-                    <li>Java</li>
-                    <li>C, C++</li>
+                    <li>JavaScript/TypeScript</li>
+                    <li>PHP</li>
+                    <li>Java, C, C++</li>
                   </ul>
                 </div>
 
                 <div className="space-y-2.5">
                   <h4 className="text-xs sm:text-sm uppercase tracking-widest text-muted-foreground">Libraries & Frameworks</h4>
                   <ul className="space-y-1.5 text-sm">
-                    <li>Flask, FastAPI</li>
-                    <li>ReactJS, React Native</li>
+                    <li>Flask, FastAPI, Node.js</li>
+                    <li>React, React Native</li>
                     <li>PyTorch, TensorFlow</li>
-                    <li>Selenium, ChromeDriver</li>
+                    <li>Selenium, LangGraph</li>
                   </ul>
                 </div>
               </div>
@@ -253,9 +290,10 @@ export default function Home() {
             <div className="pt-4 space-y-3">
               <h3 className="text-xl sm:text-2xl font-serif">Focus</h3>
               <p className="text-sm sm:text-base text-muted-foreground leading-relaxed">
-                I prioritise execution, ownership and measurable outcomes. I work end-to-end, from system design to
-                deployment and iteration - delivering solutions that are technically robust, scalable and
-                firmly grounded in real-world applications.
+                I enjoy building systems that operate in messy, real-world environments - from autonomous developer tooling and
+                large-scale data infrastructure to AI-powered mobile products and personalised learning experiences. I work
+                end-to-end across product, backend, infrastructure and machine learning, with a strong focus on fast iteration,
+                ownership and shipping practical systems that create measurable impact.
               </p>
             </div>
           </div>
