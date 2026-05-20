@@ -19,7 +19,7 @@ export default function Home() {
   return (
     <main className="relative min-h-screen bg-transparent text-foreground overflow-hidden">
       {/* Shader background: right half on desktop, bottom half on mobile (non-interactive) */}
-      <div className="absolute -z-10 pointer-events-none inset-x-0 bottom-0 h-1/2 w-full md:inset-y-0 md:right-0 md:left-auto md:w-1/2 md:h-full">
+      <div className="absolute -z-10 pointer-events-none inset-x-0 bottom-0 h-[44%] w-full md:inset-y-0 md:right-0 md:left-auto md:w-1/2 md:h-full">
         <Dithering
           style={{ height: "100%", width: "100%" }}
           colorBack="#f7f3ea"
@@ -35,7 +35,7 @@ export default function Home() {
         />
       </div>
       <section className="relative min-h-screen flex items-start justify-center md:items-center md:justify-start px-6 md:py-20 pt-[8vh] md:pt-0">
-        <div className="max-w-3xl md:max-w-6xl pl-0 md:pl-12 space-y-12 mx-auto md:mx-0 text-center md:text-left">
+        <div className="max-w-3xl md:max-w-6xl pl-0 md:pl-12 space-y-8 md:space-y-12 mx-auto md:mx-0 text-center md:text-left">
           <div
             className={cn(
               "transition-all duration-1000 delay-200",

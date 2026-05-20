@@ -1,0 +1,7 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(dir /b \"D:/musaq/Documents/Programming/11.12.24 linktree/my-links\")"
+    ]
+  }
+}
